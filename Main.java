@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
 
-    // KONSTANTER (VG-krav): Alla strängar lagras som konstanter för att undvika hårdkodade värden.
+    // KONSTANTER: Alla strängar lagras som konstanter för att undvika hårdkodade värden.
     private static final String QUESTION_PROMPT = "Vilken växt ska få vätska?";
     private static final String TITLE_QUESTION = "Växthotellet Greenest";
     private static final String WRONG_PLANT = "Hittade ingen växt med namnet: ";
@@ -16,7 +16,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // POLYMORFISM: Listan innehåller IVaxt-gränssnittet, men lagrar olika objekttyper.
+        // POLYMORFISM: Listan innehåller IPlant-gränssnittet, men lagrar olika objekttyper.
         List<IPlant> hotelPlant = new ArrayList<>();
         hotelPlant.add(new Cactus("Igge", 0.20));
         hotelPlant.add(new Palm("Laura", 5.0));
