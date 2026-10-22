@@ -18,9 +18,5 @@ public abstract class Plant implements IPlant {
     public double getLengthInMeter() {
         return lengthInMeter;
     }
-    @Override
-    public String toString() {
-        return "Växten: " + getName() + " - Längd: " + getLengthInMeter() + " meter";
-    }
 }
 

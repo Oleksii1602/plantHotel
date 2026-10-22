@@ -76,7 +76,7 @@ public class Main {
             JOptionPane.showMessageDialog(
                     null,
                     message,
-                    TITLE_WRONG,
+                    TITLE_QUESTION,
                     JOptionPane.INFORMATION_MESSAGE
             );
         }
